@@ -17,7 +17,6 @@
       </indentOptions>
     </codeStyleSettings>
     <codeStyleSettings language="TypeScript">
-      <option name="KEEP_LINE_BREAKS" value="false" />
       <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
       <indentOptions>
