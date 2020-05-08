@@ -2,10 +2,10 @@
   "name": "node-template",
   "version": "1.0.0",
   "description": "Template repo for NodeJS projects",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "scripts": {
     "lint": "eslint 'src/**/*.{ts,js}'",
