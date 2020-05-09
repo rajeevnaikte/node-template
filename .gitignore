@@ -104,6 +104,6 @@ dist
 .tern-port
 
 lib
-
+.build
 .idea
 **/__tests__/**/actual
