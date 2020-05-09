@@ -28,18 +28,18 @@
   },
   "homepage": "https://github.com/rajeevnaikte/node-template#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
-    "squid-utils": "^1.3.2"
+    "lodash": "*",
+    "squid-utils": "*"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@types/lodash": "^4.14.150",
-    "@typescript-eslint/eslint-plugin": "^2.31.0",
-    "@typescript-eslint/parser": "^2.31.0",
-    "eslint": "^6.8.0",
-    "jest": "^25.5.4",
-    "ts-jest": "^25.5.0",
-    "ts-node": "^8.10.1",
-    "typescript": "^3.7.5"
+    "@types/jest": "*",
+    "@types/lodash": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "jest": "*",
+    "ts-jest": "*",
+    "ts-node": "*",
+    "typescript": "*"
   }
 }
