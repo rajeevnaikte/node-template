@@ -12,7 +12,8 @@
     "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
     "test": "jest",
     "build": "tsc",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "go-live": "npm update && git add . && git commit && npm version patch && git push && npm publish"
   },
   "repository": {
     "type": "git",
@@ -29,17 +30,17 @@
   "homepage": "https://github.com/rajeevnaikte/node-template#readme",
   "dependencies": {
     "lodash": "*",
-    "squid-utils": "*"
+    "squid-utils": "^3.0.11"
   },
   "devDependencies": {
-    "@types/jest": "*",
-    "@types/lodash": "*",
-    "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/parser": "*",
-    "eslint": "*",
+    "@types/jest": "^26.0.0",
+    "@types/lodash": "^4.14.155",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint": "^7.2.0",
     "jest": "*",
-    "ts-jest": "*",
-    "ts-node": "*",
-    "typescript": "*"
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
   }
 }
